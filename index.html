@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Bellom Sean  | Web Developer</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400i,700,700i,800" rel="stylesheet">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+	</head>
+	
+	<body>
+		<header>
+			<a href="index.html" id="logo">
+				<h1>Bellom Sean</h1>
+				<h2>Web Developer</h2>
+			</a>
+			<nav>
+				<ul>
+					<li><a href="index.html"class="selected">Portfolio</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<div id="wrapper">
+
+				<a href="index.html">Click the like button below to make use of the App</a>
+
+				<div class="slideshow-container">
+					<div class="mySlides fade">
+						<div class="like_button_container" data-commentid="1"></div>
+						<a href="https://bellom.github.io/Money-Converter/currency.html">
+						    <img src="pic/image1.png" alt="">
+							<div class="text">Money Converter</div>
+						</a>
+					</div>
+
+					<div class="mySlides fade">
+						<div class="like_button_container" data-commentid="2"></div>
+						<a href=https://bellom.github.io/ALC-Address-Book/index.html>
+							<img src="pic/image2.png" alt="">
+							<div class="text">Web Address Book</div>
+						</a>
+					</div>
+
+					<div class="mySlides fade">
+						<div class="like_button_container" data-commentid="3"></div>
+						<a href="https://bellom.github.io/Pixer-Equal-Maker/index.html">
+							<img src="pic/image3.png" alt="">
+							<div class="text">Pixel Art Maker</div>
+						</a>
+					</div>
+					
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					
+		        </div>
+				
+				<br>
+					
+				<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span> 
+					<span class="dot" onclick="currentSlide(2)"></span> 
+					<span class="dot" onclick="currentSlide(3)"></span> 
+				</div>
+
+			<footer>
+				<a href="http://facebook.com/oluwadamilare.bellomsean"><img src="pic/image6.jpg" alt="Facebook Logo" class="social-icon"></a>
+				<p>&copy; 2017 Bellom Sean.</p>
+			</footer>
+		</div>
+
+		<script src="slide.js"></script>
+
+		<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+		<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+	
+		<!-- Load our React component. -->
+	   <script src="like_button.js"></script>
+
+	</body>
+</html>
+
+
+
+
+<!-- <a href="https://bellom.github.io/Money-Converter/currency.html"></a>
+https://bellom.github.io/ALC-Address-Book/index.html
+https://bellom.github.io/Pixer-Equal-Maker/index.html -->
