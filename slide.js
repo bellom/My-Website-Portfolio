@@ -22,8 +22,8 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  setTimeout("showSlides(slides[i], dots[i])", time);
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
+  setTimeout("showSlides()", time);
 }
 window.onload = showSlides;
