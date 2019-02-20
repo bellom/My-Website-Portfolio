@@ -19,6 +19,10 @@ img {
    max-width: 100%;
 }
 
+#setPix{
+    height: 250px;
+}
+
 h3 {
    margin: 0 0 1em 0;
 }
